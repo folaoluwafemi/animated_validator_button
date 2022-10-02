@@ -5,6 +5,8 @@ extension NumExtension on num {
 
   SizedBox get boxWidth => SizedBox(width: toDouble());
 
+  double get percentage => this * 100;
+
   double percent(double value) => (value / 100) * this;
 }
 

@@ -23,7 +23,7 @@ abstract class Ui {
         borderRadius: circularBorder(2),
         borderSide: BorderSide(
           width: 2,
-          color: color ?? Colors.blueGrey.shade800,
+          color: color ?? Colors.blueGrey.shade600,
         ),
       );
 
