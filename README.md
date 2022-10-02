@@ -4,13 +4,12 @@ An animated button validator
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Check [utils](lib/src/ui/utils) for all ui utils Check [utils](lib/src/ui/presentation) for all
+displayed widgets
 
-A few resources to get you started if this is your first Flutter project:
+The main logic behind the button lies in the ```dart setNextPositionRelativeToHoverOffset(Offset ...)``` function in [animated_hover_listener](lib/src/ui/presentation/widgets/animated_hover_listener.dart)
+and the validation logic is in [home_page](lib/src/ui/presentation/home_page.dart)
+feel free to play around with the code to see different results
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#Feel free to contribute

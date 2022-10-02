@@ -1,3 +1,4 @@
+import 'package:animated_button_validator/src/ui/utils/colors.dart';
 import 'package:flutter/material.dart';
 
 abstract class Ui {
@@ -11,9 +12,9 @@ abstract class Ui {
   }) =>
       InputDecoration(
         hintText: hintText,
-        border: border(color: validated ? Colors.green : null),
-        enabledBorder: border(color: validated ? Colors.green : null),
-        focusedBorder: border(color: validated ? Colors.green : null),
+        border: border(color: validated ? CustomColors.success : null),
+        enabledBorder: border(color: validated ? CustomColors.success : null),
+        focusedBorder: border(color: validated ? CustomColors.success : null),
         errorBorder: errorBorder(),
         focusedErrorBorder: errorBorder(),
 

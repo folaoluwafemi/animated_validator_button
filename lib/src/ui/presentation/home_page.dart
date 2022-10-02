@@ -1,5 +1,6 @@
 import 'package:animated_button_validator/src/ui/presentation/widgets/animated_hover_listener.dart';
 import 'package:animated_button_validator/src/ui/presentation/widgets/button.dart';
+import 'package:animated_button_validator/src/ui/utils/colors.dart';
 import 'package:animated_button_validator/src/ui/utils/extensions.dart';
 import 'package:animated_button_validator/src/ui/utils/functions.dart';
 import 'package:animated_button_validator/src/ui/utils/validators.dart';
@@ -80,7 +81,7 @@ class _HomePageState extends State<HomePage> {
                     escapeHover: !validated,
                     child: Button(
                       width: 120,
-                      color: validated ? Colors.green : null,
+                      color: validated ? CustomColors.success : null,
                       onPressed: onSubmitPressed,
                       child: const Text(
                         'Submit',
